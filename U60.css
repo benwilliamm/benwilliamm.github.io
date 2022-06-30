@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+.border {
+  background-color: black;
+}
+.border1 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../project/Gambar/U60.jpg);
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-color: black;
+  margin-left: 40px;
+}
+.ava {
+  border: 2px inset white;
+  height: 500px;
+  width: 750px;
+}
+.ava h1.dash {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: Arial;
+  color: white;
+  margin-left: 45px;
+  margin-top: 211px;
+  justify-content: center;
+}
+.logo {
+  width: 160px;
+  cursor: pointer;
+}
+.nav {
+  margin-top: -42px;
+  margin-left: -31px;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+  position: relative;
+}
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: 0.5s;
+}
+.nav ul li:hover::after {
+  width: 100%;
+}
+.indicator span {
+  display: inline-block;
+  background: #3a3a3a;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.indicator {
+  margin-top: 37px;
+}
+.indicator span.active {
+  background: #bfbfbf;
+}
+.tanggal {
+  position: absolute;
+  top: 269px;
+  left: 859px;
+  /* width: 320px;
+    height: 270px; */
+}
+.tanggal h1 {
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.tanggal input {
+  margin-top: 7px;
+  margin-left: 59px;
+}
+.tanggal button {
+  margin-top: 7px;
+  margin-left: 86px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+.tanggal button:hover {
+  background: #cdc6c6;
+}
+.tanggal input {
+  width: 130px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  letter-spacing: 1px;
+  font-family: poppins;
+}

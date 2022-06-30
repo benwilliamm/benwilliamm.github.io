@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+.hero {
+  width: 100%;
+  max-height: auto;
+  background-color: black;
+  color: white;
+}
+.navbar {
+  display: flex;
+  height: 80px;
+  background-color: black;
+  justify-content: end;
+}
+.logo {
+  cursor: pointer;
+  width: 140px;
+  margin-right: 35px;
+}
+.layout {
+  background-image: url(../benwilliamm.github.io/Gambar/mario-caruso-0C9VmZUqcT8-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
+.content {
+  padding-left: 50px;
+  font-size: 80px;
+  padding-top: 12%;
+  font-weight: bold;
+}
+.form {
+  position: absolute;
+  width: 242px;
+  height: 303px;
+  border: 3px inset white;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  top: 200px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.form h3 {
+  width: 225px;
+  font-family: Poppins;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 10px;
+  /* border: 3px solid white; */
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  letter-spacing: 1px;
+  font-family: poppins;
+}
+.form input:focus {
+  outline: none;
+}
+::placeholder {
+  color: white;
+  font-family: Arial;
+}
+.link {
+  font-family: poppins;
+  font-size: 17px;
+  padding-top: 10px;
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+  color: orange;
+}
+#button {
+  padding: 10px 25px;
+  margin-top: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  text-decoration: none;
+  color: white;
+  background-color: #393939;
+  border: 0;
+  outline: none;
+}
+#button:hover {
+  background: #cdc6c6;
+  color: black;
+}
+.indicator {
+  padding-top: 110px;
+  padding-left: 50px;
+}
+.indicator span {
+  display: inline-block;
+  background: #3a3a3a;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.indicator span.active {
+  background: #bfbfbf;
+}
