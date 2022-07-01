@@ -203,73 +203,7 @@
     padding-left: 712px;
   }
 }
-@media only screen and (min-width: 1080px) {
-  .hero {
-    background-color: black;
-    height: 104vh;
-    background-size: cover;
-    width: 139vh;
-  }
-  .content {
-    padding-left: 50px;
-    font-size: 50px;
-    padding-top: 12%;
-    font-weight: bold;
-  }
-  .logo {
-    cursor: pointer;
-    width: 120px;
-    height: 70px;
-    margin-right: 35px;
-  }
-  .form {
-    position: absolute;
-    width: 242px;
-    height: 228px;
-    border: 2px inset white;
-    background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.8) 50%,
-      rgba(0, 0, 0, 0.8) 50%
-    );
-    top: 200px;
-    left: 701px;
-    border-radius: 10px;
-    padding: 25px;
-  }
-  .form h3 {
-    width: 225px;
-    font-family: Poppins;
-    text-align: center;
-    font-size: 22px;
-    /* border: 3px solid white; */
-    margin-left: 15px;
-    margin-bottom: 10px;
-    margin-top: -15px;
-  }
-  .form input {
-    width: 224px;
-    height: 35px;
-    background: transparent;
-    border-bottom: 1px solid white;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    color: white;
-    letter-spacing: 1px;
-    font-family: poppins;
-  }
-  .link {
-    font-family: poppins;
-    font-size: 16px;
-    padding-top: 12px;
-    text-align: center;
-  }
-  .cta {
-    padding-left: 709px;
-  }
-}
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   .hero {
     background-color: black;
     height: 301vh;
@@ -336,7 +270,7 @@
     padding-left: 814px;
   }
 }
-@media only screen and (min-width: 812px) {
+@media only screen and (min-width: 811px) and (max-width: 813px) {
   .hero {
     background-color: black;
     height: 182vh;
